@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    height: 100%;
+}
+
+html {
+    height: 100%;
+}
+
+.page {
+    background-color: #db7953;
+    color: #004643;
+    height: 100%;
+    padding: 10% 20%;
+    width: 100;
+    font-family: Helvetica;
+    overflow-x: scroll;
+}
+
+.heart {
+    font-weight: 100;
+    font-size: 200px;
+    margin: 0;
+    margin-bottom: 50px;
+}
+
+.mercedes {
+    width: 20%;
+    min-width: 230px;
+}
+
+.road {
+    padding-left: 0;
+    height: 100px;
+    transition: 5s padding ease-in-out;
+    width: 100%;
+    display: block;
+}
+
+.road:hover {
+    width: 100%;
+    padding-left: 1000px;
+}
+
+.text-link {
+    color: #004643;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.text-link:hover {
+    background: linear-gradient(90deg,#ff8a00,#e52e71);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-position: 1000px 0;
+    transition:background-position 8s ease-in; 
+}
