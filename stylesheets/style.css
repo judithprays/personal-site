@@ -55,3 +55,12 @@ html {
     background-position: 1000px 0;
     transition:background-position 8s ease-in; 
 }
+
+.flex {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.logo {
+    width: 10%;
+}
