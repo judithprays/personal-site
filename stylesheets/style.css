@@ -93,11 +93,20 @@ html {
 }
 
 .work-section {
-    padding: 150px 0;
     border-bottom: 1px solid black;
+    padding-bottom: 50px;
 }
 
 .👀 {
     font-size: 100px;
     text-align: center;
+}
+
+.🏆 {
+    font-size: 50px;
+    text-align: center;
+}
+
+.black-logo {
+    fill: black;
 }
