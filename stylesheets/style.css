@@ -17,6 +17,11 @@ html {
     overflow-x: scroll;
 }
 
+.judith.page {
+    background-color: #004643;
+    color: white;
+}
+
 .heart {
     font-weight: 100;
     font-size: 200px;
