@@ -66,6 +66,10 @@ html {
     transition:background-position 8s ease-in; 
 }
 
+.skills-container {
+    display: flex;
+}
+
 .flex {
     display: flex;
 }
@@ -76,21 +80,13 @@ html {
     background-color: white;
 }
 
+.judith.copy, .judith .text-link {
+    color: white;
+}
+
 .logo {
     width: 10%;
     margin: 15px;
-}
-
-.tight {
-    opacity: 1;
-}
-
-.decent {
-    opacity: .5;
-}
-
-.tried-it {
-    opacity: .2;
 }
 
 .work {
@@ -114,4 +110,69 @@ html {
 
 .black-logo {
     fill: black;
+}
+
+/*social*/
+.social {
+    list-style: none;
+    padding: 0;
+    bottom: 0;
+    right: 15px;
+}
+
+.social li {
+    display: inline-block;
+}
+
+.social-link {
+    fill: white;
+}
+
+.social-link:hover {
+    fill: #e8004d;
+    transition: all 0.3s ease-in;
+}
+
+.cv-circle {
+    fill: none;
+    stroke: white;
+    stroke-width: 4;
+}
+
+#cv-link {
+    width: 50px;
+    height: 50px;
+}
+
+#cv-link:hover .cv-circle{
+    stroke: #e8004d;
+    transition: all 0.3s ease-in;
+}
+
+/* mobile */
+
+@media screen and (max-width: 600px) {
+    .page {
+        padding: 5%;
+    }
+
+    .heart {
+        font-size: 120px;
+    }
+
+    .copy {
+        font-size: 20px;
+    }
+
+    .👀 {
+        font-size: 40px;
+    }
+
+    .🏆 {
+        font-size: 30px;
+    }
+
+    .skills-container {
+        display: block;
+    }
 }
